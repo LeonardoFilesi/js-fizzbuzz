@@ -1,0 +1,38 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+.grid {
+    width: 1000px;
+    margin: 0 auto;
+   /*  border: 2px solid black; */
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgb(0, 122, 51);
+}
+
+.box {
+    width: calc(100% / 10);
+    height: 100px;
+    color: rgb(0, 0, 0);
+    outline: 1px solid rgb(255, 94, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2.4rem;
+}
+
+.fizz {
+    background-color: rgb(11, 0, 165);
+}
+
+.buzz {
+    background-color: rgb(161, 0, 0);
+}
+
+.fizzbuzz {
+    background-color: rgb(0, 192, 199);
+}
